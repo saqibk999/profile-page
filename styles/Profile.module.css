@@ -1,0 +1,15 @@
+.profileContainer{
+    margin: 1.5rem 2rem 2rem 4rem;
+}
+.header{
+    margin: 0rem 2rem 2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainContainer{
+    margin: 2rem 12rem 0rem 12rem;
+}
+.activity{
+    margin: 2rem;
+}

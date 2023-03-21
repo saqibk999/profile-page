@@ -1,0 +1,22 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+.infoText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.coloredName{
+    background-color: #FF8300;
+    border-radius: 50%;
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-style: bold;
+    color:white;
+}

@@ -1,0 +1,58 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    justify-content: space-between;
+    height: 8rem;
+}
+.nameHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+}
+.activity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    color: grey;
+}
+.leftBorder{
+    border-right: 1px solid grey;
+}
+.activity span{
+    padding-right: 2rem;
+}
+.name{
+   font-weight: bold;
+   font-size: 1.6rem;
+}
+.nameHead button{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    cursor: pointer;
+}
+.examCategory{
+    background-color: rgb(236, 236, 236);
+    width: 6.6rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.image{
+    background-color: #FF8300;
+    color: white;
+    font-size: 5rem;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:default;
+}

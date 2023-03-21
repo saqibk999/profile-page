@@ -1,0 +1,16 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 9rem;
+    font-size: 1.1rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid div{
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
